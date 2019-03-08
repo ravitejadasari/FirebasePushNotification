@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "206301618760",
+    "firebase_url": "https://push-notification-pie.firebaseio.com",
+    "project_id": "push-notification-pie",
+    "storage_bucket": "push-notification-pie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206301618760:android:0e19c5a91f6698eb",
+        "android_client_info": {
+          "package_name": "com.raviteja.mobilitypirates.firebasepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206301618760-eegvh2u9s22o5q12e8spjkmd1bnfnt5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFSXVzBO5vJRgi_gCk8JPV5Z3Xw3BI2g8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
