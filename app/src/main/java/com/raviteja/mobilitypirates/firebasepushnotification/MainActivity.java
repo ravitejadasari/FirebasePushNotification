@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tvTitle, tvBody;
     private BroadcastReceiver mRegistrationBroadcastReceiver;
+    String title,body;
 
 
     @Override
@@ -30,18 +31,14 @@ public class MainActivity extends AppCompatActivity {
 
                 if (intent.getAction().equals("pushNotification")){
                     // new push notification is received
-                    String title = intent.getStringExtra("title");
-                    String body = intent.getStringExtra("body");
+
+                     title = intent.getStringExtra("title");
+                     body = intent.getStringExtra("body");
                     Toast.makeText(getApplicationContext(), "Push notification: " + title, Toast.LENGTH_LONG).show();
                     tvTitle.setText(title);
                     tvBody.setText(body);
                 }
             }
         };
-
-        tvTitle.setText("");
-        tvBody.setText("");
-
-
     }
 }
